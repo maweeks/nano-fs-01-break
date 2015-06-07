@@ -1,6 +1,8 @@
 import time
 import webbrowser
-
-time.sleep(10)
-print "asdf"
-webbrowser.open("http://matt.weeks.codes")
+count = 0
+while (count < 8):
+	time.sleep(1)
+	print count
+	#webbrowser.open("http://matt.weeks.codes")
+	count += 1
